@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 1rem;
+	background-color: black;
+	color: white;
+
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 90vw;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+}
+.Logo{
+	font-family: "Bebas Neue", sans-serif;
+	color: #C7C7C7;
+	font-size: 1.75rem;
+}
+.burger img{
+	width: 2.75rem;
+}
+.contact{
+	line-height: 1.1;
+	margin-top: 1.5rem;
+	width: 90vw;
+}
+.contact h1{
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+}
+.contact p{
+	margin-top: -1rem;
+	display: flex;
+	width:clamp(10rem, 25rem, 50rem);
+	font-family: "Manrope", sans-serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	font-style: normal;
+	color: #C7C7C7;
+	line-height: 1.5;
+}
+.link{
+	gap: 1rem;
+	display: flex;
+	align-items: center;
+}
+.link button{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	gap: 0.6rem;
+	width: 10rem;
+	height: 3.1rem;
+	border-radius: 30px;
+	font-size: 0.9rem;
+	font-family: "Manrope", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: #D3E97A;
+}
+.link button a{
+	color: black;
+}
+.link button img{
+	width: 40px;
+}
+.link img{
+	width: 3rem;
+}
+.portred img{
+	width: 90vw;
+	border-radius: 20px;
+	margin-top: 3rem;
+}
+.projects{
+	display: flex;
+	flex-direction: column;
+	width: 90vw;
+}
+.projects h2{
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.6rem;
+}
+.projects p{
+	margin-top: -1.5rem;
+	font-family: "Manrope", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.3rem;
+	color: #C7C7C7;
+}
+.projects img{
+	width: 90vw;
+}
+.projects h3{
+	font-family: "Manrope", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.5rem;
+	margin-bottom: 2.5rem;
+}
+.projects h4{
+	font-family: "Manrope", sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+}
+.project_info{
+	border-bottom: silver solid 0.1mm;
+	width: 90vw;
+	font-family: "Manrope", sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+}
+.year{
+	width: 90vw;
+	height: 4rem;
+	border-top: silver solid 0.1mm;
+	border-bottom: silver solid 0.1mm;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.role{
+	width: 90vw;
+	height: 4rem;
+	border-bottom: silver solid 0.1mm;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.link-demo{
+	display: flex;
+	gap: 1rem;
+}
+.link-demo a{
+	color:#D3E97A;
+	font-family: "Manrope", sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	text-decoration: underline;
+	text-decoration-thickness: 5px;
+	text-underline-offset: 4px;
+}
